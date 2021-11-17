@@ -4,4 +4,112 @@
 .container, .content {
 width: 100%;
 height: 100%;
+font-family:'Raleway', sans-serif;
+}
+header{
+    background-color: #92E0E5;
+    height: 50px;
+}
+header h1{
+    float: left;
+    height: 35px;
+    width:35px;
+    margin:10px 0px 10px 10px;
+}
+header nav{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    margin-right:15px;
+}
+.hero{
+    background:url('https://www.bing.com/th?id=OIP.IumWkT1hfQ3DbUZJ47fYiQHaFj&w=176&h=170&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2');
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 285px;
+    text-align: center;
+}
+#doggy{
+    margin-top:0px;
+    text-align: center;
+    color:azure;
+    padding: 10px;
+}
+.circle img {
+    border: 2px solid #3F8DA7;
+    width: 180px;
+    height: 180px;
+    border-radius:100px;
+}
+.hero a{
+    width: 70px;
+    height: 45px;
+    border:2px solid #3F8DA7;
+    background:white;
+    color: #3F8DA7;
+    text-decoration: none;
+    top:80%;
+    left: 47.5%;
+}
+
+.three-col{
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    color:blue;
+    text-align:center;
+}
+.three-col h4{
+    margin: 0px;
+}
+.three-col p{
+    margin:0px;
+}
+.three-col img{
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+    border-radius:100px;
+    text-align: center;
+}
+.three-col a{
+    width: 100px;
+    height:50px;
+    text-align: center;
+    border: 1px solid blue;
+    text-decoration:none;
+}
+#r2{
+    margin-bottom: 5px;
+}
+#r3{
+    margin-bottom: 5px;
+    right:100%;
+}
+footer{
+    background-color: #3F8DA7;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+    
+}
+footer h4{
+    text-align: center;
+    margin-top: 5px;
+}
+footer li{
+    display: inline-block;
+    text-align: center;
+}
+footer li img{
+    width: 50px;
+    height:50px;
+    margin-left:10px ;
+    padding-left: 10px;
+}
+.last{
+    color: white;
 }
