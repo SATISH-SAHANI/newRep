@@ -54,6 +54,13 @@ body{
 }
 
 .image-2{
-    width: 430px;
+    width: 420px;
     transform: scaleX(1.2);
+}
+
+#container div:nth-child(1) section:nth-child(2) a:hover{
+    background-color: chartreuse;
+}
+#container div:nth-child(2) section:nth-child(2) a:hover{
+    background-color: chartreuse;
 }
