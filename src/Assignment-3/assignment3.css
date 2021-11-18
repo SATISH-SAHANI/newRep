@@ -48,9 +48,10 @@ button:hover{
 
 .child3{
     height: 50%;
+    width: 100%;
 }
 .child4{
     height: 50%;
     background-color: white;
-    width: 550px;
+    width: 100%;
 }
